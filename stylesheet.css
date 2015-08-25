@@ -1,0 +1,56 @@
+body{
+font-family: Century Gothic, sans-serif;
+	text-align:center;
+	background: #d0d4d2;
+}
+
+#dragLife{
+	font-family: Century Gothic, sans-serif;
+	font-weight: 100;
+	font-size: 2em;
+}
+
+#center{
+	margin-right:auto;
+	margin-left:auto;
+	width:80%;
+	background:#d2ddd2;
+	border-radius: 14px;
+}
+
+.dice{
+	color: #5496e1;
+	border-radius: 8px;
+	float:left;
+	width:32px;
+	background:#ddf9da;
+	border:2px solid #5496e1;
+	padding:10px;
+	font-size:2em;
+	margin:5px;
+}
+
+#status{
+	font-weight: 100;
+	color:green;
+	clear:left;
+}
+
+#lineUp{
+	margin-left: 395px;
+}
+
+#buttons{
+	margin-top: 22px;
+	float:left;
+}
+
+button{
+	font-size: 1em;
+	background: #8AC007;
+	color: white;
+}
+
+button:hover{
+	background: green;
+}

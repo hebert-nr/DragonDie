@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+var rollTotal = 0;
+
+function roll(){
+	var life = 20;
+	lifeId.innerHTML=life;
+	if(rollTotal < life){
+	rollTotal++;
+	dragLife.innerHTML = "Rolls = " + rollTotal;
+	}
+	else {
+	dragLife.innerHTML = "You hit 20!!  I can't take anymore!!"
+	}
+}
+</script>
+
+</head>
+<body>
+
+
+<button onclick = "roll()">Roll</button>
+<h3 id="lifeId"></h3>
+<h2 id="dragLife"></h2>
+</body>
+</html>
